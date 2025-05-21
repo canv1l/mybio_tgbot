@@ -43,6 +43,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "*✨✨✨*\n"
         f"*🔔 Welcome, {escape(user.first_name)}\\! 🔔*\n"
         "*✨✨✨*\n\n"
+        "*👤 About Me:*\n"
+        "Hi\\! I'm Shakhriddin, I survive on last-minute miracles and suspicious levels of confidence. Most of my plans start with “I’ll figure it out,” and somehow, I do. Chaos is my aesthetic, but deadlines fear me. If it looks like luck, it wasn’t.\\.\n\n"
         f"*⭐ You are the __{position}ᵗʰ__ person interested in my bio\\! ⭐*\n\n"
         f"*👥 People who clicked:*\n{others_text}"
     )
