@@ -43,7 +43,16 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "*✨✨✨*\n"
         f"*🔔 Welcome, {escape(user.first_name)}\\! 🔔*\n"
         "*✨✨✨*\n\n"
+        
+        "*I survive on last\\-minute miracles and suspicious levels of confidence\\.*"
+        "* Most of my plans start with I will figure it out, and somehow, I do\\.*" 
+        "* Chaos is my aesthetic, sarcasm is my second language, and multitasking is just me panicking efficiently\\.*"
+        "* Deadlines fear me, clocks lie for me, and if it looks like luck, it wasn’t\\. *"
+        "* Behind the mess is a method — but good luck spotting it 🗿\\.*\n\n"
+
+
         f"*⭐ You are the __{position}ᵗʰ__ person interested in my bio\\! ⭐*\n\n"
+        
         f"*👥 People who clicked:*\n{others_text}"
     )
 
@@ -53,7 +62,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 if __name__ == "__main__":
-    app = ApplicationBuilder().token("7663032209:AAHBVmUEVfVxWL5jCFHKbMlEcKzFSnWiLwc").build()
+    app = ApplicationBuilder().token("8029283821:AAHTuFjuPUzudeS6zYirqsQaTm88dZYNm3s").build()
     app.add_handler(CommandHandler("start", start))
     print("Bot is running...")
     app.run_polling()
